@@ -46,7 +46,7 @@ install_base() {
     brew install $KUBERNETES
 
     echo "Installing: dev-helpers"
-    DEVHELPERS="httpie yamllint jq parquet-tools"
+    DEVHELPERS="httpie yamllint jq parquet-tools gpg"
     brew install $DEVHELPERS
 
     echo "Installing: azure"
